@@ -20,6 +20,7 @@ Need:
 
 html {	
 	box-sizing: border-box;
+	font-size:16px;
 }
 
 .container {
@@ -33,6 +34,7 @@ body {
 	color: black;
 	width: 95vw;
 	margin: 2vw;
+	font-size:1em;
 
 }
 
