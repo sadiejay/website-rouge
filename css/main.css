@@ -1,0 +1,205 @@
+/*
+Need:
+- fonts
+	- colors 
+		- green rgb( 100, 149, 82)
+		- kinda black (25, 25, 25)
+		- full black (0, 0 ,0)
+	- sizes
+*/
+
+/*Base Styles*/
+
+*, *:before, *:after {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: inherit;
+}
+
+html {	
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+
+body {
+	font-family: 'Montserrat';
+	color: black;
+	width: 95vw;
+	margin: 2vw;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.full-width {
+	display: flex;
+	flex-direction: column;
+}
+
+.half-width {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+h2 {
+ 	font-size: 1.1em;
+}
+
+
+/****** HEADER ******/
+
+
+span {
+	color: #649552;
+}
+
+
+nav {
+	width: 35%;
+	font-size: 1vw;
+	
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+nav ul li a {
+	color: #649552;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.full-width p, #about, .img-gb {
+	margin: 1em 0;
+}
+
+#about {
+	color: #649552;
+}
+ 
+.full-width p {
+	font-weight: 300;
+	color: #191919;
+	font-size: 1.1rem;
+    line-height: 2.3rem;
+}
+
+.img-gb {
+	width: auto;
+    border: .5em solid #649552;
+    border-width: .5em 0;
+    object-fit: cover;
+
+}
+
+img {
+	height: 80%;
+}
+
+/******** Main  ********/
+
+main {
+	display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+section {
+	border: solid #949494;
+	border-width: .1em 0;
+	padding: 2rem 3rem 2.2rem;
+}
+
+section p, section ul, section address {
+	color: #191919;
+	font-weight: 300;
+	font-size: 1.1rem;
+}
+
+section h3 {
+	margin-bottom: 1rem;
+	font-size: .95rem;
+}
+
+#menu, #content {
+	padding-right: 5rem;
+}
+
+#menu {
+	padding-left: 0;
+}
+
+#menu ul {
+	color: #649552;
+	line-height: 200%;
+}
+
+#reviews {
+	flex: 1;
+	border-right: .1em solid #949494;
+	border-left: .1em solid #949494;
+}
+
+#reviews p {
+	line-height: 1.4em;
+}
+
+address {
+	line-height: 200%;
+}
+
+
+/****** FOOTER ******/
+footer {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+footer span {
+	color: #649552;
+	font-family: 'Dancing Script';
+	text-transform: none;
+}
+
+
+/***** MEDIA QUERIES ****/
+@media (min-width: 760px) {
+ 
+}
+
+@media (min-width: 1200px) {
+ 
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
