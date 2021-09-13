@@ -107,7 +107,7 @@ nav ul li a {
 }
 
 .img-gb {
-	width: auto;
+	height: auto;
     border: .5em solid #649552;
     border-width: .5em 0;
     object-fit: cover;
@@ -115,7 +115,7 @@ nav ul li a {
 }
 
 img {
-	height: 80%;
+	width: 100%;
 }
 
 /******** Main  ********/
